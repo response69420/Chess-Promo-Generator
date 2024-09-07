@@ -3,7 +3,7 @@ import random
 from faker import Faker
 
 fake = Faker()
-from colorama import Fore, Style, Back
+from colorama import Fore, Style, Back, init ; init()
 import datetime
 from datetime import datetime
 def log(tag,content,color):
