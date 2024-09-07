@@ -1,0 +1,2 @@
+py gen.py
+pause
