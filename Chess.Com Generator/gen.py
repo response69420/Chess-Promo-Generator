@@ -71,7 +71,7 @@ def getpromo(proxy):
       with open('codes.txt','a') as f:
         f.write(code+'\n')
     except:
-     log("ERR","Error occured -> {}".format(response.json(), Fore.RED))
+     log("ERR","Error occured -> {}".format(response.json()), Fore.RED))
 
 with open('proxies.txt','r') as f:
   proxies = f.read().splitlines()
